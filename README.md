@@ -1,16 +1,83 @@
-# React + Vite
+# 🍽️ Recipe Master
+### A modern React + Vite recipe discovery web app that lets users search meals, explore recipe details, and save favourites locally.
+The project focuses on API integration, component-based architecture, and responsive UI design.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo:
+### https://recipe-master-beryl.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features:
+```
+ -> 🔍 Search recipes dynamically from API
+ -> 🍲 Detailed recipe view (ingredients + measurements)
+ -> ❤️ Add recipes to favourites (stored using LocalStorage)
+ -> ⚡ Fast UI using React + Vite
+ -> 🎨 Styled with Tailwind CSS
+ -> 📱 Fully responsive layout
+ -> 🍴 Random dish of the day section
+```
 
-## React Compiler
+## 🧠 Concepts Used:
+```
+ -> React Hooks (useState, useEffect)
+ -> Component Architecture
+ -> Props & State Management
+ -> API Fetching
+ -> Conditional Rendering
+ -> Local Storage
+ -> Dynamic Rendering from API data
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack:
+```
+ -> React
+ -> Vite
+ -> Tailwind CSS
+ -> JavaScript (ES6+)
+```
 
-## Expanding the ESLint configuration
+### 📂 Project Structure:
+```
+Recipe_Master
+│
+├── src
+│   ├── components
+│   │   ├── Banner.jsx
+│   │   ├── Discover.jsx
+│   │   ├── Favourites.jsx
+│   │   ├── Footer.jsx
+│   │   ├── FunFact.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── QuickMeals.jsx
+│   │   ├── RecipeCard.jsx
+│   │   └── Search.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+└── vite.config.js
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ❤️ Favourites System:
+```
+Recipes added to favourites are stored using LocalStorage, meaning:
+   -> Each user gets their own saved list
+   -> Data persists after refresh
+   -> No backend required
+```
+
+## 👩‍💻 Creator:
+### Lovepreet Kaur
+Built with curiosity, creativity, and React.
+
+
+
+
+
+
+
+
+
+
